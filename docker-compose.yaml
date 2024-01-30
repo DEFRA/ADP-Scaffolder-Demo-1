@@ -1,0 +1,10 @@
+services:
+  ADP-Scaffolder-Demo-1:
+    build:
+      context: .
+      target: production
+    image: ADP-Scaffolder-Demo-1
+    container_name: ADP-Scaffolder-Demo-1
+    environment:
+      APPINSIGHTS_CLOUDROLE: ADP-Scaffolder-Demo-1-local
+      APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}

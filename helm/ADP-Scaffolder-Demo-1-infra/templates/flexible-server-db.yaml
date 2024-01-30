@@ -1,0 +1,4 @@
+{{- include "adp-aso-helm-library.flexible-servers-db" (list . "ADP-Scaffolder-Demo-1.flexible-servers-db") -}}
+
+{{- define "ADP-Scaffolder-Demo-1.flexible-servers-db" }}
+{{ end -}}

@@ -1,0 +1,2 @@
+{{- define "ADP-Scaffolder-Demo-1.container" -}}
+{{- end -}}

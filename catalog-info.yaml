@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ADP-Scaffolder-Demo-1
+  description: Testing Backstage scaffolder in Defra
+  annotations:
+    github.com/project-slug: defra/ADP-Scaffolder-Demo-1
+    dev.azure.com/build-definition: DEFRA.ADP-Scaffolder-Demo-1
+    sonarqube.org/project-key: ADP-Scaffolder-Demo-1
+    grafana/dashboard-selector: "folderTitle == 'Managed Prometheus'"
+spec:
+  type: 
+  lifecycle: alpha
+  owner: "group:default/adp"
+  system: system:default/fcp-demo-service

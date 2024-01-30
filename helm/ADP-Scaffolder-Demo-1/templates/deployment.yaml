@@ -1,0 +1,8 @@
+{{- include "adp-helm-library.deployment" (list . "ADP-Scaffolder-Demo-1.deployment") -}}
+{{- define "ADP-Scaffolder-Demo-1.deployment" -}}
+spec:
+  template:
+    spec:
+      containers:
+      - {{ include "adp-helm-library.container" (list . "ADP-Scaffolder-Demo-1.container") }}
+{{- end -}}

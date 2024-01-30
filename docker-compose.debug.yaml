@@ -1,0 +1,3 @@
+services:
+  ADP-Scaffolder-Demo-1:
+    command: npm run start:debug
